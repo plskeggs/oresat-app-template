@@ -1,1 +1,7 @@
-rsource "common/Kconfig"
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
+
+module = APP_TEMPLATE
+module-str = APP TEMPLATE
+
