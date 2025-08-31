@@ -15,16 +15,12 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
-
   projects:
-    - name: zephyr
+    - name: zcbor
       remote: zephyrproject-rtos
-      revision: b6aed5c
-      import:
-        name-allowlist:
-          - zcbor
-          - segger
-
-#    - name: my-module
-#      url: https://github.com/my-username/my-module
-#      revision: main
+      revision: 47f34dd7f5284e8750b5a715dee7f77c6c5bdc3f
+      path: modules/lib/zcbor
+    - name: segger
+      remote: zephyrproject-rtos
+      revision: b011c45b585e097d95d9cf93edf4f2e01588d3cd
+      path: modules/debug/segger
