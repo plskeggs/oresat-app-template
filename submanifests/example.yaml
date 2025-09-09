@@ -18,9 +18,9 @@ manifest:
   projects:
     - name: zcbor
       remote: zephyrproject-rtos
-      revision: 47f34dd7f5284e8750b5a715dee7f77c6c5bdc3f
+      revision: 9b07780aca6fb21f82a241ba386ad9b379809337
       path: modules/lib/zcbor
     - name: segger
       remote: zephyrproject-rtos
-      revision: b011c45b585e097d95d9cf93edf4f2e01588d3cd
+      revision: cf56b1d9c80f81a26e2ac5727c9cf177116a4692
       path: modules/debug/segger
